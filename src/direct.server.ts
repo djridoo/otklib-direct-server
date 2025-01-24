@@ -1,4 +1,4 @@
-import { DirectController } from 'direct.controller'
+import { DirectController } from './direct.controller'
 
 export class DirectServer {
   private handlers: { [name: string]: DirectController<any, any> } = {}
